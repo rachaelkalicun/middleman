@@ -1,5 +1,6 @@
+require "logger"
 require "active_support/version"
-require "logger" if ActiveSupport.version < Gem::Version.new("8.0.0")
+# require "logger" if ActiveSupport.version < Gem::Version.new("8.0.0")
 
 require 'active_support/all'
 
